@@ -2,7 +2,7 @@ Notes
 
 I have kali linux installed on virtualbox for the purpose of this final.
 
-After opening and booting linux on my selected VM, I navigated to the terminal and did the following the following:
+After opening and booting linux on my selected VM, I navigated to the terminal and did the following:
 
 1) Choosing the directory and creating the script using these commands...
 "cd ~/Documents" to change my directory to documents
@@ -26,3 +26,5 @@ my user profile. Using that token, I ran the following commands:
 "git add ." to add all contents I want to commit that are in the folder
 "git commit -m" to save a snapshot of the files
 "git push -u origin main" to upload them committed files
+This prompted me with a username and password, but GitHub no longer authenticates via the command line.
+So, using the generated token in place of my password, I was able to bypass this obstacle
